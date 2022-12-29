@@ -20,6 +20,7 @@ describe("We need a mechanic", () => {
 
   it("checks a long random word that can be turned into palindrome", () => {
     // d exceeds index 11 or 12
+    console.log("length", "lakardionoiddrakal".length);
     expect(checkPart("lakardionoiddrakal")).toEqual(true); // false
   });
 
@@ -43,8 +44,8 @@ describe("We need a mechanic", () => {
     expect(checkPart("bigbrotherstasatsrehktorbgib")).toEqual(true); // false
   });
 
-  it("checks a long random word that can be turned into palindrome 5", () => {
-    // r exceeds index 10
-    expect(checkPart("didhannahseebeeshannahdid")).toEqual(true); // false
+  it("checks a long random word that can be turned into palindrome 6", () => {
+    // s exceeds index 4
+    expect(checkPart("fesesf")).toEqual(true); // false
   });
 });
